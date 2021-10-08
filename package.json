@@ -40,7 +40,7 @@
     "clsx": "^1.0.4",
     "common-dir": "^3.0.0",
     "copy-webpack-plugin": "^6.1.0",
-    "core-js": "^3.6.4",
+    "core-js": "^3.17.3",
     "doctrine": "^3.0.0",
     "es6-object-assign": "~1.1.0",
     "es6-promise": "^4.2.8",
