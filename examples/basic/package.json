@@ -18,15 +18,18 @@
   },
   "scripts": {
     "styleguide": "styleguidist server",
-    "styleguide:build": "styleguidist build"
+    "styleguide:build": "styleguidist build",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "dog-names": "^2.0.0",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.20",
     "prop-types": "^15.7.2",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
-    "react-styleguidist": "^11.0.0"
+    "react-styleguidist": "^11.0.0",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@babel/core": "^7.6.4",
@@ -39,5 +42,6 @@
     "style-loader": "^1.0.0",
     "url-loader": "^2.2.0",
     "webpack": "^4.41.1"
-  }
+  },
+  "snyk": true
 }
