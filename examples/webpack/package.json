@@ -20,18 +20,21 @@
     "css-loader": "^5.0.0",
     "dog-names": "^1.0.2",
     "file-loader": "^6.2.0",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.20",
     "prop-types": "^15.6.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-styleguidist": "^11.1.1",
     "style-loader": "^2.0.0",
-    "webpack": "^5.3.2"
+    "webpack": "^5.3.2",
+    "@snyk/protect": "latest"
   },
   "scripts": {
     "build": "webpack",
     "styleguide": "styleguidist server",
-    "styleguide:build": "styleguidist build"
+    "styleguide:build": "styleguidist build",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "devDependencies": {
     "@babel/core": "^7.12.3",
@@ -40,5 +43,6 @@
     "@babel/preset-react": "^7.12.1",
     "babel-loader": "^8.1.0",
     "core-js": "^3.6.5"
-  }
+  },
+  "snyk": true
 }
