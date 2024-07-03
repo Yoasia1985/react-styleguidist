@@ -76,7 +76,7 @@
     "q-i": "^2.0.1",
     "qss": "^2.0.3",
     "react-dev-utils": "^11.0.0",
-    "react-docgen": "^5.0.0",
+    "react-docgen": "^5.2.0",
     "react-docgen-annotation-resolver": "^2.0.0",
     "react-docgen-displayname-handler": "^3.0.0",
     "react-group": "^3.0.2",
@@ -89,7 +89,7 @@
     "to-ast": "^1.0.0",
     "type-detect": "^4.0.8",
     "unist-util-visit": "^2.0.0",
-    "webpack-dev-server": "^3.11.0",
+    "webpack-dev-server": "^4.9.0",
     "webpack-merge": "^4.2.2"
   },
   "peerDependencies": {
