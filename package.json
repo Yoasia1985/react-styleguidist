@@ -85,11 +85,11 @@
     "recast": "~0.18.5",
     "remark": "^13.0.0",
     "strip-html-comments": "^1.0.0",
-    "terser-webpack-plugin": "^4.1.0",
+    "terser-webpack-plugin": "^5.3.11",
     "to-ast": "^1.0.0",
     "type-detect": "^4.0.8",
     "unist-util-visit": "^2.0.0",
-    "webpack-dev-server": "^3.11.0",
+    "webpack-dev-server": "^5.2.0",
     "webpack-merge": "^4.2.2"
   },
   "peerDependencies": {
